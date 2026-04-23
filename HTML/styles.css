@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px !important;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.nav-links a:hover {
+    color: #4A6CF7;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 93.4vh;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 0 80px;
+    margin-top: 50px;
+
+   background: linear-gradient(
+    to right,
+    #6f92cf 0%,
+    #9fb6de 25%,
+    #cbd8ec 55%,
+    #f4f7fb 100%
+); 
+}
+/* IMAGE */
+.hero-image img {
+     margin-top: 57px;
+     margin-left: 40px;
+    width: 480px;
+    height: 650px;
+    border-radius: 0%;
+}
+
+/* TEXT ito ng hero */
+.hero-content {
+    max-width: 550px;
+    margin-left: 45px; 
+
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.hero-content p,
+.hero-content h2,
+.hero-content h3 {
+    margin: 0;
+}
+
+.intro {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 0px; 
+}
+
+.name {
+    font-size: 4rem;
+    font-weight: 550;
+    margin-top: 100px; 
+    white-space: nowrap;
+    
+}
+
+.role {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #4A6CF7;
+    margin-bottom: 10px; 
+}
+
+.description {
+    color: #666;
+    margin-top: 10px; 
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+.btn.primary:hover {
+    background-color: transparent;
+    color: #4A6CF7;
+    border: 2px solid #4A6CF7;
+}
+/* PRIMARY */
+.primary {
+    background-color: #4A6CF7;
+    color: white;
+}
+
+.primary:hover {
+    background-color: #3a56d4;
+}
+
+/* SECONDARY */
+.secondary {
+    border: 2px solid #4A6CF7;
+    color: #4A6CF7;
+}
+
+.secondary:hover {
+    background-color: #4A6CF7;
+    color: white;
+}
